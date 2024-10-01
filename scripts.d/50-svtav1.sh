@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SCRIPT_REPO="https://gitlab.com/AOMediaCodec/SVT-AV1.git"
-SCRIPT_COMMIT="85e44db4b49fcbf8fea2472bdd517e8aa8e1c1a0"
+SCRIPT_REPO="https://github.com/gianni-rosato/svt-av1-psy/svt-av1-psy.git"
+#SCRIPT_COMMIT="85e44db4b49fcbf8fea2472bdd517e8aa8e1c1a0"
 
 ffbuild_enabled() {
     [[ $TARGET == win32 ]] && return -1
@@ -9,7 +9,7 @@ ffbuild_enabled() {
 }
 
 ffbuild_dockerdl() {
-    echo "git clone \"$SCRIPT_REPO\" . && git checkout \"$SCRIPT_COMMIT\""
+    echo "git clone \"$SCRIPT_REPO\"" 
 }
 
 ffbuild_dockerbuild() {
