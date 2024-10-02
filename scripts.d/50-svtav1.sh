@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SCRIPT_REPO="https://github.com/gianni-rosato/svt-av1-psy/svt-av1-psy.git"
+SCRIPT_REPO="https://github.com/gianni-rosato/svt-av1-psy.git"
 #SCRIPT_COMMIT="85e44db4b49fcbf8fea2472bdd517e8aa8e1c1a0"
 
 ffbuild_enabled() {
