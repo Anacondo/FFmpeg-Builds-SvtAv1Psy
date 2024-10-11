@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 SCRIPT_REPO="https://github.com/gianni-rosato/svt-av1-psy.git"
